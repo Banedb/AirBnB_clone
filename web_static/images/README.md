@@ -1,1 +1,1 @@
-css files folder
+images folder
