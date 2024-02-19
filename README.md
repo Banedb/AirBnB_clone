@@ -11,4 +11,31 @@ The command interpreter is a Python-based CLI tool that provides a command-line 
 
 - Navigate to the directory containing the project files.
 
-- Run the console.py file e.g. ./console.py
+- Run the console.py file with: "./console.py" or "python console.py"
+
+- Type "help" in the console for documentation.
+
+### Available Commands
+The command interpreter supports the following commands:
+
+- "help": Display a list of available commands or provide help for a specific command.
+- "create": Create a new instance of a specified class.
+- "show": Display details of a specific instance.
+- "destroy": Delete a specified instance.
+- "all": Display all instances or all instances of a specified class.
+- "update": Update attributes of a specified instance.
+- "quit" or "EOF": Exit the console.
+
+### Supported Classes
+The command interpreter supports CRUD operations on the following classes:
+
+- "BaseModel": The base class for all other classes. Provides basic functionality such as serialization and deserialization.
+- "User": Represents a user of the application.
+- "Place": Represents a lodging place available for booking.
+- "Review": Represents a review written by a user for a place.
+- "City", "State", "Amenity": Additional classes representing geographical and other data related to places.
+
+### Testing
+The project includes unit tests to ensure the correctness of the implemented functionality. To run the tests, execute the following commands:
+- "python3 -m unittest discover tests"
+- "echo 'python3 -m unittest discover tests' | bash" (In non-interactive mode)
