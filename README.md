@@ -27,7 +27,7 @@ The command interpreter supports the following commands:
 - "quit" | "exit" | "EOF": Exit the console.
 - "update": Update attributes of a specified instance.
 
--`Enter` on an empty line does nothing.
+`Enter` on an empty line does nothing.
 
 ### Supported Classes
 The command interpreter supports CRUD operations on the following classes:
