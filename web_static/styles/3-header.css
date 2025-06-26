@@ -1,0 +1,18 @@
+header {
+    position: relative;
+    background-color: #FFFFFF;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+header .logo {
+    position: absolute;
+    height: 100%;
+    width: 11%;
+    left: 1%;
+    background-image: url("../images/hbnb_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
